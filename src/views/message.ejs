@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: bisque;">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Chat wall</title>
+    </head>
+    <main>
+        <h1 style="font-family: fantasy;">Chat Wall</h1>
+
+        <body>
+        <% messages.forEach( message => { %>
+                <p><%= message.name %></p>
+                <p><%= message.message %></p>
+        <% }) %>
+        <% include new.ejs %>
+            
+    </body>
+  </main>
+</html>
