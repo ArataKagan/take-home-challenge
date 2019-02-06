@@ -41,3 +41,8 @@ npm start
 ```
 View the app running in production in your browser at http://localhost:3000  
 
+## Areas of Improvement 
+
+1. Update the message real-time. Currently, you need to refresh the browser after you submit the message. 
+2. Add delete functionality for each message. 
+
