@@ -17,10 +17,11 @@
 
 ## Test
 
-Run the following command to run the test 
+Run the following command to run the test.
+Currently, debugging `messages_spec.js` under `spec/integration` folder.
 
 ```
-npm test
+npm test 
 ```
 
 ## Install 
@@ -28,7 +29,7 @@ npm test
 Run the following commands to install the app:
 
 ```
-git clone https://github.com/ArataKagan/
+git clone https://github.com/ArataKagan/take-home-challenge
 cd melting-pot
 npm install
 ``` 
@@ -38,5 +39,5 @@ Run the following command to run the app in production:
 ```
 npm start
 ```
-View the app running in production in your browser at http://localhost:3000 
+View the app running in production in your browser at http://localhost:3000  
 
